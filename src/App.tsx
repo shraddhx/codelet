@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
@@ -7,19 +7,24 @@ import Home from "./pages/home";
 export default function App() {
   return (
     <div>
-      <nav>
+      {/* <nav>
         <Link to="/">Home</Link> |{" "}
         <Link to="/about">About</Link> |{" "}
         <Link to="/projects">Projects</Link> |{" "}
         <Link to="/contact">Contact</Link>
-      </nav>
+      </nav> */}
 
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </Routes> */}
+
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
 }
