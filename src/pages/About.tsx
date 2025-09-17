@@ -6,7 +6,7 @@ export default function About() {
       style={{
         minHeight: "calc(100vh - 100px)",
         width: "100%",
-        backgroundColor: "#0c2855",
+        backgroundColor: "#061939ff",
         color: "white",
         padding: "60px 10%",
         boxSizing: "border-box",
