@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import backgroundImage from "../assets/homepage_background.jpg";
+import backgroundImage from "../assets/space.jpg";
 import Typed from "typed.js";
 
 export default function Home() {
@@ -10,15 +10,13 @@ export default function Home() {
     if (typedRef.current) {
       const typed = new Typed(typedRef.current, {
         strings: [
-          "Hello, I'm Shraddha Mishra",
+          "I'm Shraddha Mishra",
           "Welcome to my Codelet",
-          "This message will self-distruct soon...",
-          ""
         ],
         typeSpeed: 40,
         backSpeed: 25,
         backDelay: 2000,
-        loop: false,
+        loop: true,
         onComplete: () => setShowArrow(true),
       });
 
@@ -45,9 +43,25 @@ export default function Home() {
       <h1
         style={{
           position: "absolute",
-          top: "30px",
+          top: "330px",
+          left: "250px",
           width: "100%",
-          textAlign: "center",
+          textAlign: "left",
+          fontSize: "3rem",
+          fontWeight: "bold",
+          color: "lightblue"
+        }}
+      >
+        Hello,
+      </h1>
+
+      <h1
+        style={{
+          position: "absolute",
+          top: "400px",
+          left: "250px",
+          width: "100%",
+          textAlign: "left",
           fontSize: "3rem",
           fontWeight: "bold",
           color: "lightblue"

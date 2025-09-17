@@ -82,7 +82,6 @@ export default function Experience() {
             padding: "0 20px",
           }}
         >
-          {/* Center timeline line */}
           <div
             style={{
               position: "absolute",
