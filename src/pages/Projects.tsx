@@ -37,7 +37,7 @@ export default function Experience() {
     },
   ];
 
-  const [modalOpened, {open, close}] = useDisclosure();
+  const [modalOpened, {close}] = useDisclosure();
   const [chosenExperience, setChosenExperience] = useState(0);
 
 
